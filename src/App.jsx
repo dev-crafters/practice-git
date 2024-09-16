@@ -18,6 +18,12 @@ function App() {
         <p>En este caso referenciaremos el issue al crear el commit</p>
         <p>creo que no se subio antes</p>
       </div>
+
+      {/* Colocando contenido que no deberia exisitir */}
+      <div className="error">Este mensaje no deberia estar aqui</div>
+      <div className="inservible">
+        <tren>tren?</tren>
+      </div>
     </>
   );
 }
