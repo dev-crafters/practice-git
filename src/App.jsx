@@ -12,6 +12,11 @@ function App() {
           github
         </p>
       </div>
+      <div>
+        <p>Tenemos otro nuevo commit pero ahora referenciando el issue</p>
+        <p>En este caso referenciaremos el issue al crear el commit</p>
+        <p>creo que no se subio antes</p>
+      </div>
     </>
   );
 }
