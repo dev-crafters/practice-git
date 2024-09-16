@@ -21,6 +21,9 @@ function App() {
 
       {/* Colocando contenido que no deberia exisitir */}
       <div className="error">Este mensaje no deberia estar aqui</div>
+      <div className="inservible">
+        <tren>tren?</tren>
+      </div>
     </>
   );
 }
